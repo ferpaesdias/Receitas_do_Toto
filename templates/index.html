@@ -1,0 +1,154 @@
+{{define "Index"}}
+
+{{template "_head"}}
+
+{{template "_header"}}
+<!-- ====== BODY ====== -->
+<body>
+
+
+
+<section class="hero">
+  <div class="container hero__grade">
+    <div class="hero__conteudo">
+      <span class="hero__eyebrow">🐾 Aprovado pelo faro do Totó</span>
+      <h1>Receitas com cheirinho de <em>casa</em>,<br>testadas por quem manda na cozinha.</h1>
+      <p class="lead">Um caderno de receitas afetivo, guardado a sete chaves — e agora aberto pra todo mundo. Cadastre suas receitas, organize ingredientes e siga o modo de preparo sem complicação.</p>
+      <div class="hero__acoes">
+        <a href="cadastro-receita.html" class="botao botao--primario">Cadastrar receita</a>
+        <a href="cadastro.html" class="botao botao--contorno">Criar minha conta</a>
+      </div>
+    </div>
+    <div class="hero__retrato">
+      <img src="/static/assets/logo-toto.png" alt="Retrato de Totó, o cachorro mascote" class="hero__moldura">
+      <div class="hero__selo">Eu garanto!<br>— Totó</div>
+    </div>
+  </div>
+</section>
+
+<div class="tira-destaques">
+  <div class="container">
+    <div class="tira-destaques__item"><strong>120+</strong>receitas cadastradas</div>
+    <div class="tira-destaques__item"><strong>38</strong>ingredientes catalogados</div>
+    <div class="tira-destaques__item"><strong>9</strong>unidades de medida</div>
+    <div class="tira-destaques__item"><strong>100%</strong>testado em casa</div>
+  </div>
+</div>
+
+<main>
+  <section class="secao container">
+    <div class="secao__cabecalho">
+      <div>
+        <span class="secao__rotulo">Direto do caderno de receitas</span>
+        <h2>Receitas em destaque</h2>
+      </div>
+      <a href="receitas.html" class="botao botao--escuro">Ver todas as receitas</a>
+    </div>
+
+    <div class="grade-receitas">
+
+      <a class="cartao-receita__link" href="receita-feijoada-de-domingo.html">
+      <article class="cartao-receita">
+        <div class="selo-toto"><span class="pata">🐾</span>Aprovado<br>pelo Totó</div>
+        <div class="cartao-receita__capa">🍲</div>
+        <div class="cartao-receita__corpo">
+          <span class="cartao-receita__categoria">Prato principal</span>
+          <h3 class="cartao-receita__titulo">Feijoada de domingo</h3>
+          <p class="cartao-receita__descricao">A receita de família que reúne todo mundo na mesa, com tempero lento e acompanhamentos clássicos.</p>
+          <div class="cartao-receita__rodape">
+            <span>⏱ 3h 30min</span>
+            <span>🍽 8 porções</span>
+          </div>
+        </div>
+      </article>
+      </a>
+
+      <a class="cartao-receita__link" href="receita-torta-rustica-de-maca.html">
+      <article class="cartao-receita">
+        <div class="selo-toto"><span class="pata">🐾</span>Aprovado<br>pelo Totó</div>
+        <div class="cartao-receita__capa">🥧</div>
+        <div class="cartao-receita__corpo">
+          <span class="cartao-receita__categoria">Sobremesa</span>
+          <h3 class="cartao-receita__titulo">Torta rústica de maçã</h3>
+          <p class="cartao-receita__descricao">Massa amanteigada e recheio levemente caramelizado, perfeita pra tarde fria com café.</p>
+          <div class="cartao-receita__rodape">
+            <span>⏱ 1h 10min</span>
+            <span>🍽 6 porções</span>
+          </div>
+        </div>
+      </article>
+      </a>
+
+      <a class="cartao-receita__link" href="receita-pao-caseiro-fermentacao-lenta.html">
+      <article class="cartao-receita">
+        <div class="selo-toto"><span class="pata">🐾</span>Aprovado<br>pelo Totó</div>
+        <div class="cartao-receita__capa">🍞</div>
+        <div class="cartao-receita__corpo">
+          <span class="cartao-receita__categoria">Pães</span>
+          <h3 class="cartao-receita__titulo">Pão caseiro de fermentação lenta</h3>
+          <p class="cartao-receita__descricao">Casca crocante, miolo macio. Exige paciência, mas o cheiro vale cada minuto de espera.</p>
+          <div class="cartao-receita__rodape">
+            <span>⏱ 18h (descanso)</span>
+            <span>🍽 1 unidade</span>
+          </div>
+        </div>
+      </article>
+      </a>
+
+      <a class="cartao-receita__link" href="receita-salada-morna-batata-doce.html">
+      <article class="cartao-receita">
+        <div class="selo-toto"><span class="pata">🐾</span>Aprovado<br>pelo Totó</div>
+        <div class="cartao-receita__capa">🥗</div>
+        <div class="cartao-receita__corpo">
+          <span class="cartao-receita__categoria">Entrada</span>
+          <h3 class="cartao-receita__titulo">Salada morna de batata-doce</h3>
+          <p class="cartao-receita__descricao">Leve e colorida, com ervas frescas do quintal e um toque de mostarda na vinagrete.</p>
+          <div class="cartao-receita__rodape">
+            <span>⏱ 35min</span>
+            <span>🍽 4 porções</span>
+          </div>
+        </div>
+      </article>
+      </a>
+
+      <a class="cartao-receita__link" href="receita-biscoito-aveia-mel.html">
+      <article class="cartao-receita">
+        <div class="selo-toto"><span class="pata">🐾</span>Aprovado<br>pelo Totó</div>
+        <div class="cartao-receita__capa">🍪</div>
+        <div class="cartao-receita__corpo">
+          <span class="cartao-receita__categoria">Doces</span>
+          <h3 class="cartao-receita__titulo">Biscoito de aveia e mel</h3>
+          <p class="cartao-receita__descricao">Crocante por fora, macio por dentro — a receita que o Totó mais insiste em "provar".</p>
+          <div class="cartao-receita__rodape">
+            <span>⏱ 25min</span>
+            <span>🍽 20 unidades</span>
+          </div>
+        </div>
+      </article>
+      </a>
+
+      <a class="cartao-receita__link" href="receita-risoto-de-cogumelos.html">
+      <article class="cartao-receita">
+        <div class="selo-toto"><span class="pata">🐾</span>Aprovado<br>pelo Totó</div>
+        <div class="cartao-receita__capa">🍛</div>
+        <div class="cartao-receita__corpo">
+          <span class="cartao-receita__categoria">Prato principal</span>
+          <h3 class="cartao-receita__titulo">Risoto de cogumelos</h3>
+          <p class="cartao-receita__descricao">Cremoso no ponto certo, finalizado com manteiga e um fio de azeite de ervas.</p>
+          <div class="cartao-receita__rodape">
+            <span>⏱ 45min</span>
+            <span>🍽 4 porções</span>
+          </div>
+        </div>
+      </article>
+      </a>
+
+    </div>
+  </section>
+</main>
+
+{{template "_footer"}}
+
+</body>
+</html>
+{{end}}
