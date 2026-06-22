@@ -12,5 +12,5 @@ func main() {
 	http.Handle("/static/", http.StripPrefix("/static/", fs))
 
 	routes.Rotas()
-    http.ListenAndServe(":8080", nil)
+    http.ListenAndServe(":8000", nil)
 }
